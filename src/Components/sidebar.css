@@ -1,0 +1,100 @@
+.sidebar{
+   
+   flex: 3;
+   margin: 2rem;
+   padding-bottom: 1rem;
+   background-color: #fdfbfb;
+   border-radius: 1rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 1.3rem;
+}
+
+p{
+   padding: 1.2rem;
+}
+
+.sidebarTitle{
+   border-top: 2px solid #4a7a7a;
+   border-bottom: 2px solid #4a7a7a;
+   text-align: center;
+   margin:2rem;
+   width: 80%;
+   color: #222;
+   
+   margin-left: 4.5rem;
+   font-family: 'Varela Round', sans-serif;
+}
+
+.sidebarTitlea{
+   margin-bottom: 2rem;
+   
+   margin:2rem;
+   width: 80%;
+   border-top: 2px solid #4a7a7a;
+   border-bottom: 2px solid #4a7a7a;
+   
+   font-family: 'Varela Round', sans-serif;
+}
+
+img{
+   margin-top: 2rem;
+}
+
+.title__container{
+   
+   text-align: center;
+}
+
+ul{
+   margin-top: 1rem;
+}
+
+.sidebarListItem{
+   
+   display: inline-block;
+   width: 50%;
+   margin-top: 2rem;
+   cursor: pointer;
+}
+
+.sidebar__social{
+ cursor: pointer;
+   
+}
+
+.social {
+   margin-top: 1rem;
+   display: flex;
+   flex-direction: column;
+   width: 8rem;
+   display: flex;
+   gap: 1rem;
+   align-items: center;
+   justify-content: center;
+   margin-right: 1.4rem;
+   font-size: 1rem;
+}
+
+.follows{
+   
+   border-top: 2px solid #4a7a7a;
+   border-bottom: 2px solid #4a7a7a;
+   
+   font-family: 'Varela Round', sans-serif;
+}
+
+/* ---- Tab ---*/
+@media screen and (max-width: 1024px){
+   img{
+      margin-left: 9rem;
+   }
+}
+
+/* ---- Mobile ---*/
+@media screen and (max-width: 600px){
+   img{
+      margin-left: 4.3rem;
+   }
+}

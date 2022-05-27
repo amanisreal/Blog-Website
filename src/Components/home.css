@@ -1,0 +1,19 @@
+.home{
+    display: flex;
+}
+
+/* --- mobile ---*/
+@media screen and (max-width: 600px) {
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* --- mobile ---*/
+@media screen and (max-width: 1024px) {
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+}
